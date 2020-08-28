@@ -18,6 +18,7 @@ export const BannerMemori = styled.section`
         justify-content: space-between;
         align-items: center;
         max-height:70vh;
+        
         height: 100vh;
         
        ${container}

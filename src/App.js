@@ -31,8 +31,8 @@ function App() {
   <Wrapper>
   <Logo/>
     <ListaMemoriul>
-      <ListaMemorili>Home</ListaMemorili>
-      <ListaMemorili>Serviços</ListaMemorili>
+      <ListaMemorili as="a" href="/home">Home</ListaMemorili>
+      <ListaMemorili as="a" href="/home/serviço">Serviços</ListaMemorili>
       <ListaMemorili>Nossos Processos</ListaMemorili>
       <ListaMemorili>Portifolio</ListaMemorili>
     </ListaMemoriul>

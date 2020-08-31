@@ -24,3 +24,56 @@ export const BannerMemori = styled.section`
        ${container}
 
 `;
+export const SegBannerMemori = styled.section`
+        
+        max-height:70vh;
+        height:100vh;
+        margin-bottom: 50px;
+        
+        ${container}
+`;
+export const SitesMemori = styled.div`
+    
+    border:3px solid var(--color-red-light);
+    width: 45%;
+    height: 100%;
+    position: relative;
+    margin-left: 25px;
+    
+
+`;
+export const SitemasMemori = styled.div`
+    
+    border:3px solid var(--color-red-light);
+    width: 45%;
+    height: 100%;
+    position: relative;
+    margin-left: 25px;
+    
+
+`;
+export const AppBlocoMemori = styled.div`
+    border:3px solid var(--color-red-light);
+    width: 45%;
+    height: 100%;
+    position: relative;
+    margin-left: 25px;
+    
+
+`;
+export const EcomerciBlocoMemori = styled.div`
+    border:3px solid var(--color-red-light);
+    width: 45%;
+    height: 100%;
+    position: relative;
+    margin-left: 25px;
+    
+
+`;
+
+
+export const BlocoTituloMemori = styled.div`
+    display: flex;
+    
+    
+`;

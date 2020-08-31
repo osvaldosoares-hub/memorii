@@ -5,8 +5,9 @@ const TitleMemori = styled.h1`
     font-size:60rem;
     border-radius: 4rem;
     padding:20rem 18rem;
-    width: 300px
+    width: 300px;
 
 `;
+
 
 export default TitleMemori;

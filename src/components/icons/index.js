@@ -2,10 +2,13 @@ import styled from'styled-components';
 import Mapa   from '../../assets/img/mapa.png';
 import Insta from '../../assets/img/insta.png';
 import Phone from '../../assets/img/phone.png';
-import Twitter from '../../assets/img/twitter.png'
-import Arrows from '../../assets/img/setas.png'
-import Arrwoss from '../../assets/img/esquerda.png'
-import Perfil from '../../assets/img/perfil.png'
+import Twitter from '../../assets/img/twitter.png';
+import Arrows from '../../assets/img/setas.png';
+import Arrwoss from '../../assets/img/esquerda.png';
+import Computador from '../../assets/img/computador.png';
+import Sistema from '../../assets/img/sistema.png';
+import App from '../../assets/img/smartphone.png';
+import Compra from '../../assets/img/carrinho-de-compras.png';
 
 export const IconMemori = styled.img.attrs({src: Mapa , alt: "mapa"})`
     width: 20px;
@@ -54,14 +57,38 @@ export const IconsArrowss = styled.img.attrs({ src:Arrwoss , alt:"seta esquerda"
            
 
 `;
-export const IconPerfil = styled.img.attrs({src: Perfil, atl: "pefil"})`
-            border: 5px solid var(--color-red-light);
+export const IconComputador = styled.img.attrs({src: Computador, atl: "sites"})`
+            border: 3px solid var(--color-red-light);
             padding: 5px;
-            margin-top: 5px;
-            border-radius: 50px;
-            right: 45%;
+            margin-top: 6px;
+           
+            right: 47%;
             position: absolute;
             
 
 
+`;
+export const IconSistema = styled.img.attrs({src: Sistema , atl: "Sistema "})`
+            border: 3px solid var(--color-red-light);
+            padding: 5px;
+            margin-top: 6px;
+            width: 25px;
+            right: 45%;
+            position: absolute;
+`;
+export const IconApp = styled.img.attrs({src: App , atl: "App"})`
+            border: 3px solid var(--color-red-light);
+            padding: 5px;
+            margin-top: 6px;
+            width: 25px;
+            right: 45%;
+            position: absolute;
+`;
+export const IconComprar = styled.img.attrs({src: Compra , atl: "Compra"})`
+            border: 3px solid var(--color-red-light);
+            padding: 5px;
+            margin-top: 6px;
+            width: 25px;
+            right: 45%;
+            position: absolute;
 `;

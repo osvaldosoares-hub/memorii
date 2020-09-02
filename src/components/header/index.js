@@ -43,21 +43,12 @@ export const Wrapper = styled.div`
             height: 15px;
         }
         & > ${ListaMemoriul}{
+            
             position: absolute;
-            width:30px;
+            
             height:30px;
             top:160px;
-            &:hover{
-                
-        background: var(--dark-ball);
-    
-        width: 380px;
-        height:40px;
-        border-radius: 0px;
-    
-   
-
-            }
+            
             
         }
     }

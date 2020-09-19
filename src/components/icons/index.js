@@ -9,7 +9,9 @@ import Computador from '../../assets/img/computador.png';
 import Sistema from '../../assets/img/sistema.png';
 import App from '../../assets/img/smartphone.png';
 import Compra from '../../assets/img/carrinho-de-compras.png';
-
+import Dinheiro from '../../assets/img/dinheiro.png';
+import Engrenagem from '../../assets/img/engrenagem.png';
+import BatePapo from '../../assets/img/balao-de-fala.png';
 export const IconMemori = styled.img.attrs({src: Mapa , alt: "mapa"})`
     width: 20px;
     margin-right: 5px;
@@ -58,6 +60,7 @@ export const IconsArrowss = styled.img.attrs({ src:Arrwoss , alt:"seta esquerda"
 
 `;
 export const IconComputador = styled.img.attrs({src: Computador, atl: "sites"})`
+            border-radius: 5px;
             border: 3px solid var(--color-red-light);
             padding: 5px;
             margin-top: 6px;
@@ -69,6 +72,7 @@ export const IconComputador = styled.img.attrs({src: Computador, atl: "sites"})`
 
 `;
 export const IconSistema = styled.img.attrs({src: Sistema , atl: "Sistema "})`
+            border-radius: 5px;
             border: 3px solid var(--color-red-light);
             padding: 5px;
             margin-top: 6px;
@@ -77,6 +81,7 @@ export const IconSistema = styled.img.attrs({src: Sistema , atl: "Sistema "})`
             position: absolute;
 `;
 export const IconApp = styled.img.attrs({src: App , atl: "App"})`
+             border-radius: 5px;
             border: 3px solid var(--color-red-light);
             padding: 5px;
             margin-top: 6px;
@@ -85,10 +90,26 @@ export const IconApp = styled.img.attrs({src: App , atl: "App"})`
             position: absolute;
 `;
 export const IconComprar = styled.img.attrs({src: Compra , atl: "Compra"})`
+            border-radius: 5px;
             border: 3px solid var(--color-red-light);
             padding: 5px;
             margin-top: 6px;
             width: 25px;
             right: 45%;
             position: absolute;
+`;
+export const IconDinheiro = styled.img.attrs({ src: Dinheiro, alt: "dinheiro"})`
+    border: 3px solid var(--color-blue-light);
+    padding: 10px;
+
+`;
+
+export const IconEngrenagem = styled.img.attrs({src: Engrenagem, alt: "ferramentas"})`
+    border: 3px solid var(--color-blue-light);
+    padding: 7px;
+`;
+
+export const IconBatePapo = styled.img.attrs({src:BatePapo, alt:"bate-papo"})`
+    border: 3px solid var(--color-blue-light);
+    padding: 7px;   
 `;

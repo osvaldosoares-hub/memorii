@@ -33,40 +33,42 @@ export const SegBannerMemori = styled.section`
         ${container}
 `;
 export const SitesMemori = styled.div`
-    
+    border-radius: 5px;
     border:3px solid var(--color-red-light);
     width: 45%;
     height: 100%;
     position: relative;
-    margin-left: 25px;
+    margin-left: 15px;
     
 
 `;
 export const SitemasMemori = styled.div`
-    
+    border-radius: 5px;
     border:3px solid var(--color-red-light);
     width: 45%;
     height: 100%;
     position: relative;
-    margin-left: 25px;
+    margin-left: 15px;
     
 
 `;
 export const AppBlocoMemori = styled.div`
+    border-radius: 5px;
     border:3px solid var(--color-red-light);
     width: 45%;
     height: 100%;
     position: relative;
-    margin-left: 25px;
+    margin-left: 15px;
     
 
 `;
 export const EcomerciBlocoMemori = styled.div`
+    border-radius: 5px;
     border:3px solid var(--color-red-light);
     width: 45%;
     height: 100%;
     position: relative;
-    margin-left: 25px;
+    margin-left: 15px;
     
 
 `;
@@ -76,4 +78,23 @@ export const BlocoTituloMemori = styled.div`
     display: flex;
     
     
+`;
+
+
+export const TerBannerMemori = styled.section`
+        display:flex;
+        align-items:center;
+        max-height:20vh;
+        height: 100vh;
+        margin-bottom: 50px;
+        ${container}
+`;
+
+export const PreçoAcessivel = styled.div`
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom:30px;
+        width: 30%;
+        margin-left:10px;
 `;

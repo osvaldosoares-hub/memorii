@@ -18,7 +18,7 @@ export const ListaMemorili = styled.li`
         opacity:1;
         width: 100%;
         height:100%;
-        background: var(--color-red-light);
+        background: var(--color-words);
         transform: translateX(-100%);
         transition: transform 200ms linear;
     }

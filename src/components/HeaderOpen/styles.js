@@ -1,7 +1,9 @@
-import styled from  'styled-components';
+import styled from  'styled-components'; 
 import container from '../tools';
 import Logo from '../logo';
 import { ListaMemoriul } from '../lista';
+
+
 
 export const Wrapperheader = styled.div`
     display:flex;
@@ -16,6 +18,7 @@ export const HeaderHeadMemori = styled.header`
     padding-top: 10px;
     font-size: 13rem;    
 `;
+
 export const HeaderMemori = styled.header`
     background-color: var( --color-head);
     border-bottom: 2px solid red;
@@ -28,6 +31,8 @@ export const HeaderMemori = styled.header`
     }
     
 `;
+
+
 export const Wrapper = styled.div`
     padding-top: 60px;
     display: flex;

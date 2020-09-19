@@ -39,3 +39,17 @@ export const Paragrafo = styled.p`
         
 
 `;
+
+export const TituloPreco = styled.h2`
+        font-size: 20rem;
+        margin-bottom: 25px;
+        margin-left: 25px;
+
+`;
+export const SegParagrafo = styled.p`
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        margin-left: 37px;
+        font-size: 15rem;
+`;

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Serviço from './pages/serviço'
+import Portifolio from './pages/portifolio'
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 ReactDOM.render(
@@ -9,7 +9,8 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact component={App}/>
-      <Route path="/home/serviço" exact component={Serviço}/>
+      <Route path="/home/Portifolio" exact component={Portifolio}/>
+      
       
       
       

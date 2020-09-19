@@ -1,10 +1,10 @@
 import React from 'react';
 import TitleMemori from '../../components/title';
 
-function Serviço(){
+function Portifolio(){
     return (
-        <TitleMemori>dale</TitleMemori>
+        <TitleMemori>oi galera</TitleMemori>
     );
 
 }
-export default Serviço
+export default Portifolio;

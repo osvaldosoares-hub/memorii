@@ -1,57 +1,63 @@
 import React from 'react';
 import './style/settings/style.css'
 import './style/reset.css'
-import { Wrapperheader, HeaderHeadMemori, HeaderMemori, Wrapper } from './components/header';
-import Logo from './components/logo';
-import { IconMemori, IconPhone, IconInsta, IconsTwitter, IconsArrows, IconsArrowss, IconComputador, IconSistema, IconApp, IconComprar } from './components/icons';
-import { BannerMemori, BlocoTituloMemori, SegBannerMemori, SitesMemori, SitemasMemori,AppBlocoMemori, EcomerciBlocoMemori   } from './components/banner';
+import HeaderOpen from './components/HeaderOpen/index';
+import { IconsArrows, IconsArrowss, IconComputador, IconSistema, IconApp, IconComprar, IconDinheiro, IconEngrenagem, IconBatePapo } from './components/icons';
+import { BannerMemori, BlocoTituloMemori, SegBannerMemori, SitesMemori, SitemasMemori,AppBlocoMemori, EcomerciBlocoMemori, TerBannerMemori, PreçoAcessivel   } from './components/banner';
 import   TitleMemori   from './components/title';
-import { TagMemori, SegTagMemori, Titulo, Paragrafo } from './components/tag';
-import { ListaMemoriul, ListaMemorili } from './components/lista';
-import LinkMemori from './components/link';
+import { TagMemori, SegTagMemori, Titulo, Paragrafo, SegParagrafo, TituloPreco } from './components/tag';
 import { Borda, BlocoMemori, SeggBlocoMemori} from './components/divs';
 import FooterMemori from './components/footer';
 import LogoMemori from './components/logomemori';
 
 
+
 function App() {
   return (
    <>
-  
-  <HeaderHeadMemori>
-  <Wrapperheader>
-  <LinkMemori href="https://www.google.com/maps/place/UFCA+-+Universidade+Federal+do+Cariri+-+Campus+Juazeiro+do+Norte/@-7.2566452,-39.3048177,15z/data=!4m5!3m4!1s0x0:0xd338476d79979708!8m2!3d-7.2566452"> <IconMemori/></LinkMemori> Av. Tenente Raimundo Rocha, S/N, UFCA, Juazeiro do Norte
-    <IconPhone/>(88)99764-4360
-    <LinkMemori href="https://www.instagram.com/osvaldo_soa/"><IconInsta/>  </LinkMemori>
-    <LinkMemori href="https://twitter.com/dev_dewebnamoro"> <IconsTwitter/></LinkMemori>
-  </Wrapperheader>
-  </HeaderHeadMemori>
-  
-  <HeaderMemori>
-  <Wrapper>
-  <Logo/>
-    <ListaMemoriul>
-      <ListaMemorili as="a" href="/home">Home</ListaMemorili>
-      <ListaMemorili as="a" href="/home/serviço">Serviços</ListaMemorili>
-      <ListaMemorili>Nossos Processos</ListaMemorili>
-      <ListaMemorili>Portifolio</ListaMemorili>
-    </ListaMemoriul>
-  </Wrapper>
-  </HeaderMemori>
-
+  <HeaderOpen/>
 
   <BannerMemori>
   <TitleMemori>Quem somos nos</TitleMemori>
   <TagMemori>A Memori– Empresa Júnior de Matematica Computacional e Ciências da Computação é uma iniciativa empreendedora, composta por estudantes do curso de MC e CC da Universidade Federal do Cariri (UFCA), Campus Juazeiro do Norte. A Memori busca, através de sua equipe, integrar os conhecimentos, trabalhando com desenvolvimento de soluções web, seja sites, sistemas e/ou aplicativos. Buscamos a solução personalizada ao seu negócio e aos seus problemas, visando sempre trazer mais resultado!!</TagMemori>
+  
   </BannerMemori>
-
+  
   <BlocoTituloMemori>
   <Borda>
   <IconsArrows/>
-  <SegTagMemori>Serviços</SegTagMemori>
+  <SegTagMemori>Porque nos Contratar</SegTagMemori>
   <IconsArrowss/>
   </Borda>
   </BlocoTituloMemori>
+  
+  <TerBannerMemori>
+  <PreçoAcessivel>
+  <IconDinheiro/>
+  <TituloPreco>Preço acessivel</TituloPreco>
+  <SegParagrafo>Oferecemos serviços de qualidade a um baixo custo, tornando as nossas tecnologias acessiveis para micro e pequena empressa. </SegParagrafo>
+  </PreçoAcessivel>
+  <PreçoAcessivel>
+  <IconEngrenagem/>
+  <TituloPreco>Desenvolvimento Agíl</TituloPreco>
+  <SegParagrafo>uma equipe de desenvolvedores dedicadas ao projeto com uso de metodologias ageis para garantir o projeto dentro do prazo. </SegParagrafo>
+  </PreçoAcessivel>
+  <PreçoAcessivel>
+  <IconBatePapo/>
+  <TituloPreco>Atendimento Pesonalizado</TituloPreco>
+  <SegParagrafo>Tenha o acompanhamento do projeto durante toda a fase de desenvolvimento</SegParagrafo>
+  </PreçoAcessivel>
+
+  </TerBannerMemori>
+    
+  <BlocoTituloMemori>
+  <Borda>
+  <IconsArrows/>
+  <SegTagMemori id="servico">Serviços</SegTagMemori>
+  <IconsArrowss/>
+  </Borda>
+  </BlocoTituloMemori>
+  
   <SegBannerMemori>
     
     <BlocoMemori>
@@ -62,12 +68,13 @@ function App() {
      <Paragrafo>Voltado para quem deseja dar presença digital ao seu negócio e alavancar as suas vendas, reunindo informações e consolidando a identidade visual da marca num canal fundamental de contato com o público.</Paragrafo>
      
     </SitesMemori>
-    <SitemasMemori>
-    <IconSistema/>
-    <Titulo>Sistemas</Titulo>
-    <Paragrafo>Consiste na criação de uma solução online personalizada para automatizar os processos internos da sua organização, otimizando a sua gestão em tempo e dinheiro investidos.</Paragrafo>
-    </SitemasMemori> 
-    </BlocoMemori>
+      <SitemasMemori>
+      <IconSistema/>
+      <Titulo>Sistemas</Titulo>
+      <Paragrafo>Consiste na criação de uma solução online personalizada para automatizar os processos internos da sua organização, otimizando a sua gestão em tempo e dinheiro investidos.</Paragrafo>
+      </SitemasMemori> 
+      </BlocoMemori>
+    
     <SeggBlocoMemori>
     <AppBlocoMemori>
       <IconApp/>

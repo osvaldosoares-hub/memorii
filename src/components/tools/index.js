@@ -4,4 +4,6 @@ const container = `
     margin-left: auto;
     margin-right: auto;
 `;
+
+
 export default container;

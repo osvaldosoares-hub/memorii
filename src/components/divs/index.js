@@ -33,3 +33,34 @@ export const SeggBlocoMemori = styled.div`
         height:50%;
 
 `;
+
+export const Bloco = styled.div`
+        display: flex;
+        position:absolute;
+        
+        margin-top:30px;
+        width:100%;
+        height:50%;
+        top: 0px;
+        
+        
+        
+`;
+export const PrimeiroBloc = styled.div`
+        display :flex;       
+        flex-direction: column;
+        margin-left: 120px;
+        width:35%;
+       
+        
+
+`;
+export const SegundBloc = styled.div`
+        display :flex;
+        flex-direction: column;
+        margin-left: 100px;
+        width:35%;
+        
+        
+
+`;

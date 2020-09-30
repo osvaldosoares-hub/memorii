@@ -12,6 +12,7 @@ import Compra from '../../assets/img/carrinho-de-compras.png';
 import Dinheiro from '../../assets/img/dinheiro.png';
 import Engrenagem from '../../assets/img/engrenagem.png';
 import BatePapo from '../../assets/img/balao-de-fala.png';
+import Proposta from '../../assets/img/proposta.png';
 export const IconMemori = styled.img.attrs({src: Mapa , alt: "mapa"})`
     width: 20px;
     margin-right: 5px;
@@ -36,6 +37,7 @@ export const IconPhone = styled.img.attrs({src: Phone, alt: "telefone"})`
                transform: scale(1.1)
            }
 `;
+
 
 
 export const IconsTwitter = styled.img.attrs({src: Twitter , alt: "twitter"})`
@@ -112,4 +114,26 @@ export const IconEngrenagem = styled.img.attrs({src: Engrenagem, alt: "ferrament
 export const IconBatePapo = styled.img.attrs({src:BatePapo, alt:"bate-papo"})`
     border: 3px solid var(--color-blue-light);
     padding: 7px;   
+`;
+
+export const IconPhonee = styled.img.attrs({src: Phone, alt: "telefone"})`
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: var(--color-blue-light);
+    &:hover{
+               transform: scale(1.1)
+           }
+`;
+
+export const IconProposta = styled.img.attrs({src:Proposta, alt:"proposta"})`
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: var(--color-blue-light);
+    &:hover{
+               transform: scale(1.1)
+           }
 `;

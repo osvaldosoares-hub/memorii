@@ -10,4 +10,5 @@ const TitleMemori = styled.h1`
 `;
 
 
+
 export default TitleMemori;

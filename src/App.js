@@ -2,14 +2,14 @@ import React from 'react';
 import './style/settings/style.css'
 import './style/reset.css'
 import HeaderOpen from './components/HeaderOpen/index';
-import { IconsArrows, IconsArrowss, IconComputador, IconSistema, IconApp, IconComprar, IconDinheiro, IconEngrenagem, IconBatePapo } from './components/icons';
-import { BannerMemori, BlocoTituloMemori, SegBannerMemori, SitesMemori, SitemasMemori,AppBlocoMemori, EcomerciBlocoMemori, TerBannerMemori, PreçoAcessivel   } from './components/banner';
-import   TitleMemori   from './components/title';
-import { TagMemori, SegTagMemori, Titulo, Paragrafo, SegParagrafo, TituloPreco } from './components/tag';
-import { Borda, BlocoMemori, SeggBlocoMemori} from './components/divs';
+import { IconsArrows, IconsArrowss, IconComputador, IconSistema, IconApp, IconComprar, IconDinheiro, IconEngrenagem, IconBatePapo, IconProposta } from './components/icons';
+import { BannerMemori, BlocoTituloMemori, SegBannerMemori, SitesMemori, SitemasMemori,AppBlocoMemori, EcomerciBlocoMemori, TerBannerMemori, PreçoAcessivel, QuartoBannerMemori   } from './components/banner';
+import    TitleMemori    from './components/title';
+import { TagMemori, SegTagMemori, Titulo, Paragrafo, SegParagrafo, TituloPreco, Tituloo, Paragrafoo } from './components/tag';
+import { Borda, BlocoMemori, SeggBlocoMemori, Bloco,PrimeiroBloc, SegundBloc} from './components/divs';
 import FooterMemori from './components/footer';
 import LogoMemori from './components/logomemori';
-
+import {IconPhonee} from './components/icons';
 
 
 function App() {
@@ -91,6 +91,28 @@ function App() {
     
     
   </SegBannerMemori>
+  <BlocoTituloMemori>
+  <Borda>
+  <IconsArrows/>
+  <SegTagMemori id="nosso-processo">Nosso processo</SegTagMemori>
+  <IconsArrowss/>
+  </Borda>
+  </BlocoTituloMemori>
+
+  <QuartoBannerMemori>
+    <Bloco>
+    <PrimeiroBloc>
+    <IconPhonee/>
+    <Tituloo> Briefing</Tituloo>
+    <Paragrafoo>Realizamos uma reunião de briefing para conhecer o seu negócio e o problema ou ideia. A partir disso, iremos compreender melhor a situação e poder estruturar da melhor forma uma solução para você.</Paragrafoo>
+    </PrimeiroBloc> 
+    <SegundBloc>
+    <IconProposta/>
+    <Tituloo>Proposta</Tituloo>
+    <Paragrafoo>Após o briefing será montada a proposta da solução, tendo a descrição do projeto com os prazos e o orçamento. Tudo isso é apresentado numa reunião para posteriormente ser efetuado o contrato.</Paragrafoo>
+    </SegundBloc>
+    </Bloco>
+  </QuartoBannerMemori>
   <FooterMemori>
     <LogoMemori/>
     </FooterMemori> 

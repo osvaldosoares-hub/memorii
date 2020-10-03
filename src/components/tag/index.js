@@ -54,7 +54,7 @@ export const SegParagrafo = styled.p`
         font-size: 15rem;
 `;
 export const Tituloo = styled.h2`
-        font-size: 20rem;
+        font-size: 19rem;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
@@ -64,7 +64,7 @@ export const Paragrafoo = styled.p`
         
         margin-top: 5%;
         
-        font-size: 20rem;
+        font-size: 15rem;
         text-align: justify;
         
         

@@ -2,11 +2,11 @@ import React from 'react';
 import './style/settings/style.css'
 import './style/reset.css'
 import HeaderOpen from './components/HeaderOpen/index';
-import { IconsArrows, IconsArrowss, IconComputador, IconSistema, IconApp, IconComprar, IconDinheiro, IconEngrenagem, IconBatePapo, IconProposta } from './components/icons';
+import { IconsArrows, IconsArrowss, IconComputador, IconSistema, IconApp, IconComprar, IconDinheiro, IconEngrenagem, IconBatePapo, IconProposta, IconInicio, IconCodigo, IconSuporte } from './components/icons';
 import { BannerMemori, BlocoTituloMemori, SegBannerMemori, SitesMemori, SitemasMemori,AppBlocoMemori, EcomerciBlocoMemori, TerBannerMemori, PreçoAcessivel, QuartoBannerMemori   } from './components/banner';
 import    TitleMemori    from './components/title';
 import { TagMemori, SegTagMemori, Titulo, Paragrafo, SegParagrafo, TituloPreco, Tituloo, Paragrafoo } from './components/tag';
-import { Borda, BlocoMemori, SeggBlocoMemori, Bloco,PrimeiroBloc, SegundBloc} from './components/divs';
+import { Borda, BlocoMemori, SeggBlocoMemori, Bloco,PrimeiroBloc, SegundBloc, BlocoDois, PriBloc, SegBloc,TerBloc} from './components/divs';
 import FooterMemori from './components/footer';
 import LogoMemori from './components/logomemori';
 import {IconPhonee} from './components/icons';
@@ -112,6 +112,24 @@ function App() {
     <Paragrafoo>Após o briefing será montada a proposta da solução, tendo a descrição do projeto com os prazos e o orçamento. Tudo isso é apresentado numa reunião para posteriormente ser efetuado o contrato.</Paragrafoo>
     </SegundBloc>
     </Bloco>
+    <BlocoDois>
+    <PriBloc>
+    <IconInicio/>
+    <Tituloo>Início do projeto</Tituloo>
+    <Paragrafoo>Uma equipe de desenvolvedores com um gerente de projetos será montada para a realização do projeto.</Paragrafoo>
+    </PriBloc>
+    <SegBloc>
+    <IconCodigo/>
+    <Tituloo>Desenvolvimento</Tituloo>
+    <Paragrafoo>Durante o processo de construção do projeto você terá comunicação com a equipe responsável. À medida que o projeto for tendo as etapas de desenvolvimento sendo concluídas você será informado, além de que ocorrerão reuniões para apresentar como o projeto se encontra.</Paragrafoo>
+    </SegBloc>
+    <TerBloc>
+    <IconSuporte/>
+    <Tituloo>Suporte</Tituloo>
+    <Paragrafoo>Após a entrega do projeto, você terá direito há um mês gratuito de suporte, que funciona como uma garantia. Esse período irá servir para auxiliar em casos de problemas de uso, por exemplo.</Paragrafoo>
+    </TerBloc>
+
+    </BlocoDois>
   </QuartoBannerMemori>
   <FooterMemori>
     <LogoMemori/>

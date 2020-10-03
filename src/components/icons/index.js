@@ -13,6 +13,9 @@ import Dinheiro from '../../assets/img/dinheiro.png';
 import Engrenagem from '../../assets/img/engrenagem.png';
 import BatePapo from '../../assets/img/balao-de-fala.png';
 import Proposta from '../../assets/img/proposta.png';
+import Inicio from '../../assets/img/botao-de-energia.png';
+import Codigo from '../../assets/img/codigo.png';
+import Suporte from '../../assets/img/suporte-ao-cliente.png';
 export const IconMemori = styled.img.attrs({src: Mapa , alt: "mapa"})`
     width: 20px;
     margin-right: 5px;
@@ -128,6 +131,36 @@ export const IconPhonee = styled.img.attrs({src: Phone, alt: "telefone"})`
 `;
 
 export const IconProposta = styled.img.attrs({src:Proposta, alt:"proposta"})`
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: var(--color-blue-light);
+    &:hover{
+               transform: scale(1.1)
+           }
+`;
+export const IconInicio = styled.img.attrs({src:Inicio, alt:"inicio"})`
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: var(--color-blue-light);
+    &:hover{
+               transform: scale(1.1)
+           }
+`;
+export const IconCodigo = styled.img.attrs({src:Codigo, alt:"codigo"})`
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: var(--color-blue-light);
+    &:hover{
+               transform: scale(1.1)
+           }
+`;
+export const IconSuporte = styled.img.attrs({src:Suporte, alt:"suporte"})`
     width: 25px;
     margin-left: auto;
     margin-right: auto;

@@ -9,11 +9,11 @@ export const Casas = styled.label`
 `;
 export const Nome = styled.input`
     border: 1px solid var(--input-color);
-    height: 10px;
+    height: 5px;
     width:400px;
     border-radius: 30px;
     display: block;
-    padding: 25px 25px;
+    padding: 20px 25px;
     text-transform: uppercase;
     outline: 0;
     box-sizing: border-box;
@@ -21,11 +21,11 @@ export const Nome = styled.input`
 `;
 export const EmailContato = styled.input`
     border: 1px solid var(--input-color);
-    height: 10px;
+    height: 5px;
     width:450px;
     border-radius: 30px;
     display: block;
-    padding: 25px 25px;
+    padding: 20px 25px;
     text-transform: uppercase;
     outline: 0;
     box-sizing: border-box;
@@ -33,11 +33,11 @@ export const EmailContato = styled.input`
 `;
 export const TelefoneContato = styled.input`
     border: 1px solid var(--input-color);
-    height: 10px;
+    height: 5px;
     width:400px;
     border-radius: 30px;
     display: block;
-    padding: 25px 25px;
+    padding: 20px 25px;
     text-transform: uppercase;
     outline: 0;
     box-sizing: border-box;
@@ -45,11 +45,11 @@ export const TelefoneContato = styled.input`
 `;
 export const MensagemContato = styled.textarea`
     border: 1px solid var(--input-color);
-    height: 10px;
-    width:400px;
+    height: 5px;
+    width:450px;
     border-radius: 30px;
     display: block;
-    padding: 25px 25px;
+    padding: 20px 25px;
     text-transform: uppercase;
     outline: 0;
     box-sizing: border-box;

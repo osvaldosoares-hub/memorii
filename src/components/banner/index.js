@@ -103,10 +103,20 @@ export const PreçoAcessivel = styled.div`
 export const QuartoBannerMemori = styled.section`
         background:var(--background-quarto);
         display:flex;
-        align-items:center;
+        
         position:relative;
         max-height:100vh;
         height: 100vh;
         margin-bottom: 50px;
         ${container}
+`;
+
+export const QuintoBannerMemori = styled.section`
+        display:flex;
+        max-height: 100vh;
+        height: 100vh;
+        justify-content: space-between;
+        ${container}
+
+
 `;

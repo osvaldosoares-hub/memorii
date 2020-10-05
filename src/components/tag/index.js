@@ -70,3 +70,20 @@ export const Paragrafoo = styled.p`
         
 
 `;
+export const Paragrafooo = styled.p`
+        
+        margin-left: 10px;
+        
+        font-size: 18rem;
+        text-align: justify;
+        
+        
+
+`;
+export const Titulooo = styled.h2`
+        font-size: 25rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+       
+`;

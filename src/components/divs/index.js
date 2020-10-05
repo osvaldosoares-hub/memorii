@@ -94,3 +94,62 @@ export const TerBloc = styled.div`
         margin-left: 40px;
         width:30%;
 `;
+export const InformacoesMemori = styled.div`
+        display: flex;
+        flex-direction: column;
+
+
+`;
+export const Localizacao = styled.div`
+        display: flex;
+        align-items:center;
+        width:350px;
+        margin-bottom:20px;
+
+`;
+export const Phone = styled.div`
+        display: flex;
+        align-items:center;
+        width:350px;
+        margin-bottom:20px;
+
+`;
+export const Email = styled.div`
+        display: flex;
+        align-items:center;
+        width:350px;
+        margin-bottom:20px;
+
+`;
+export const Horario = styled.div`
+        display: flex;
+        align-items:center;
+        width:350px;
+        margin-bottom:20px;
+
+`;
+export const BlocoTitulo = styled.div`
+        display: flex;
+        margin-bottom: 45px;
+        position: relative;
+`;
+
+export const Bordaa = styled.div`
+        border-bottom: 1px solid var(--color-red-light);
+        width: 43%;
+        position:absolute;
+        top: 35px;
+        margin-left:15px;
+        
+`;
+export const Bordaaa = styled.div`
+        border-bottom: 1px solid var(--color-red-light);
+        width: 43%;
+        position:absolute;
+        top: 35px;
+        left:200px;
+`;
+export const ContatoMemori = styled.div`
+        display: flex;
+        flex-direction: column;
+`;

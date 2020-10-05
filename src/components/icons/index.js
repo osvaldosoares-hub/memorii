@@ -16,6 +16,10 @@ import Proposta from '../../assets/img/proposta.png';
 import Inicio from '../../assets/img/botao-de-energia.png';
 import Codigo from '../../assets/img/codigo.png';
 import Suporte from '../../assets/img/suporte-ao-cliente.png';
+import Localizacao from '../../assets/img/placeholder.png';
+import Email from '../../assets/img/o-email.png';
+import Relogio from '../../assets/img/relogio.png';
+import DownArrow from '../../assets/img/setabaixo.png';
 export const IconMemori = styled.img.attrs({src: Mapa , alt: "mapa"})`
     width: 20px;
     margin-right: 5px;
@@ -169,4 +173,32 @@ export const IconSuporte = styled.img.attrs({src:Suporte, alt:"suporte"})`
     &:hover{
                transform: scale(1.1)
            }
+`;
+
+export const IconLocalizacao = styled.img.attrs({src: Localizacao, alt: "local"})`
+        border:2px solid var(--color-red-light);
+        padding: 9px;
+`;
+export const IconPhoni = styled.img.attrs({src: Phone, alt:"telefone"})`
+        
+        border:2px solid var(--color-red-light);
+        padding: 9px;
+        width:24px;
+
+`;
+export const IconEmail = styled.img.attrs({src: Email, alt: "Email"})`
+        border:2px solid var(--color-red-light);
+        padding: 9px;
+`;
+export const IconRelogio = styled.img.attrs({src: Relogio, alt: "Relogio"})`
+        border:2px solid var(--color-red-light);
+        padding: 9px;
+`;
+export const IconDownArrow = styled.img.attrs({src: DownArrow, alt:"DownArrow"})`
+        height:28px;
+        position: absolute;
+        top:23px;
+        left:168px;
+        
+
 `;

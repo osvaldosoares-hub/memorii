@@ -10,6 +10,7 @@ import { Borda, BlocoMemori, SeggBlocoMemori, Bloco,PrimeiroBloc, SegundBloc, Bl
 import FooterMemori from './components/footer';
 import LogoMemori from './components/logomemori';
 import {IconPhonee} from './components/icons';
+import { EmailContato, EnviarMensagem, MensagemContato, Nome,TelefoneContato } from './components/inputs';
 
 
 function App() {
@@ -134,14 +135,15 @@ function App() {
 
   
     <QuintoBannerMemori>
+
     <InformacoesMemori>
     <BlocoTitulo>
     <Titulooo>Informações para contato</Titulooo>
     <Bordaa/>
     <IconDownArrow/>
     <Bordaaa/>
-    
     </BlocoTitulo>
+
     <Localizacao>
     <IconLocalizacao/>
     <Paragrafooo>Av. Tenente Raimundo Rocha, S/N, UFCA, Juazeiro do Norte</Paragrafooo>
@@ -162,7 +164,19 @@ function App() {
     
     </InformacoesMemori>
     <ContatoMemori>
+    <BlocoTitulo>
+    <Titulooo>Envie-nos uma mensagem</Titulooo>
+    <Bordaa/>
+    <IconDownArrow/>
+    <Bordaaa/>
     
+    </BlocoTitulo>
+    
+    <Nome defaultValue="Nome" type="text"/>
+    <EmailContato defaultValue="Email" type="email"/>
+    <TelefoneContato Value="(88)" type="number"/>
+    <MensagemContato defaultValue="mensagem" type="text"/>
+    <EnviarMensagem type="submit" value="enviar mensagem"/>
     </ContatoMemori> 
     </QuintoBannerMemori>
 

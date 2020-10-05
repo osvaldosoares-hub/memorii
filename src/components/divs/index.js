@@ -97,6 +97,7 @@ export const TerBloc = styled.div`
 export const InformacoesMemori = styled.div`
         display: flex;
         flex-direction: column;
+        margin-left: 40px;
 
 
 `;

@@ -177,7 +177,8 @@ export const IconSuporte = styled.img.attrs({src:Suporte, alt:"suporte"})`
 
 export const IconLocalizacao = styled.img.attrs({src: Localizacao, alt: "local"})`
         border:2px solid var(--color-red-light);
-        padding: 9px;
+        padding: 8px;
+        width: 40px;
 `;
 export const IconPhoni = styled.img.attrs({src: Phone, alt:"telefone"})`
         

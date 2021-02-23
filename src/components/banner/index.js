@@ -18,6 +18,7 @@ export const BannerMemori = styled.section`
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-top:100px;
         max-height:70vh;
         
         height: 100vh;
@@ -32,6 +33,13 @@ export const SegBannerMemori = styled.section`
         margin-bottom: 150px;
         
         ${container}
+        @media (max-width:800px){
+            
+            margin-bottom:380px;
+          
+          
+    
+        }
 `;
 export const SitesMemori = styled.div`
     border-radius: 5px;
@@ -40,6 +48,12 @@ export const SitesMemori = styled.div`
     height: 100%;
     position: relative;
     margin-left: 10px;
+    background-color:var(--background-quarto);
+    @media (max-width: 800px){
+        width:45%;
+        border: 0;
+        margin:10px;
+    }
     
 
 `;
@@ -50,6 +64,12 @@ export const SitemasMemori = styled.div`
     height: 100%;
     position: relative;
     margin-left: 10px;
+    background-color:var(--background-quarto);
+    @media (max-width: 800px){
+        
+        border: 0;
+        
+    }
     
 
 `;
@@ -60,6 +80,11 @@ export const AppBlocoMemori = styled.div`
     height: 100%;
     position: relative;
     margin-left: 10px;
+    background-color:var(--background-quarto);
+    @media (max-width: 800px){
+        border: 0;
+        margin:10px;
+    }
     
 
 `;
@@ -70,6 +95,11 @@ export const EcomerciBlocoMemori = styled.div`
     height: 100%;
     position: relative;
     margin-left: 10px;
+    background-color:var(--background-quarto);
+    @media (max-width: 800px){
+        border: 0;
+        
+    }
     
 
 `;

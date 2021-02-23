@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import LogoMemori from '../logomemori';
+import Logo from '../logo';
 
 const FooterMemori = styled.footer`
     display :flex;
@@ -10,7 +10,7 @@ const FooterMemori = styled.footer`
     color: #fff;
     padding: 10rem 0;
 
-    & > ${LogoMemori}{
+    & > ${Logo}{
         margin-bottom: 20rem;
 
     }

@@ -1,18 +1,25 @@
 import styled from 'styled-components'
+
+
 import container from '../tools';
 
 export const Borda = styled.div`
         border-bottom: 2px solid var(--color-red-light);
-        width: 25%;
+        width: 30%;
         display: flex;
         margin-bottom: 40px;
         ${container}
+        @media(max-width: 800px){
+                display:flex;
+                width:300px;
+               
+        }
 `;
-export const Linha = styled.div`
-border-bottom: 2px solid var(--color-red-light);
-width: 25%;
-display: flex;
-margin-bottom: 40px;
+        export const Linha = styled.div`
+        border-bottom: 2px solid var(--color-red-light);
+        width: 25%;
+        display: flex;
+        margin-bottom: 40px;
 
 `;
 
@@ -22,6 +29,13 @@ export const BlocoMemori = styled.div`
         
         width: 100%;
         height:50%;
+        @media (max-width: 800px){
+        display:flex;
+        flex-direction:column;
+        margin-left:30%;
+        margin-bottom : 180px;
+
+    }
 
 `;
 
@@ -31,6 +45,12 @@ export const SeggBlocoMemori = styled.div`
         justify-content: space-between;
         width: 100%;
         height:50%;
+        @media (max-width: 800px){
+        display:flex;
+        flex-direction:column;
+        margin-left:30%;
+        
+        }
 
 `;
 
@@ -153,4 +173,19 @@ export const Bordaaa = styled.div`
 export const ContatoMemori = styled.div`
         display: flex;
         flex-direction: column;
+`;
+export const ContatoBorda = styled.div`
+        border-bottom: 1px solid var(--color-red-light);
+        width: 43%;
+        position:absolute;
+        top: 35px;
+        left:225px;
+`;
+export const InfoBorda = styled.div`
+        border-bottom: 1px solid var(--color-red-light);
+        width: 43%;
+        position:absolute;
+        top: 35px;
+        
+        
 `;

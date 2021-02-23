@@ -2,11 +2,11 @@ import React from 'react';
 import './style/settings/style.css'
 import './style/reset.css'
 import HeaderOpen from './components/HeaderOpen/index';
-import { IconsArrows, IconsArrowss, IconComputador, IconSistema, IconApp, IconComprar, IconDinheiro, IconEngrenagem, IconBatePapo, IconProposta, IconInicio, IconCodigo, IconSuporte, IconLocalizacao, IconPhoni, IconEmail,IconRelogio, IconDownArrow } from './components/icons';
+import { IconsArrows, IconsArrowss, IconComputador, IconSistema, IconApp,IconDownArrows, IconComprar, IconDinheiro, IconEngrenagem, IconBatePapo, IconProposta, IconInicio, IconCodigo, IconSuporte, IconLocalizacao, IconPhoni, IconEmail,IconRelogio, IconDownArrow } from './components/icons';
 import { BannerMemori, BlocoTituloMemori, SegBannerMemori, SitesMemori, SitemasMemori,AppBlocoMemori, EcomerciBlocoMemori, TerBannerMemori, PreçoAcessivel, QuartoBannerMemori, QuintoBannerMemori   } from './components/banner';
 import    TitleMemori    from './components/title';
 import { TagMemori, SegTagMemori, Titulo, Paragrafo, SegParagrafo, TituloPreco, Tituloo, Paragrafoo,Paragrafooo, Titulooo } from './components/tag';
-import { Borda, BlocoMemori, SeggBlocoMemori, Bloco,PrimeiroBloc, SegundBloc, BlocoDois, PriBloc, SegBloc,TerBloc, InformacoesMemori, Localizacao, Phone, Email,Horario, BlocoTitulo, Bordaa, Bordaaa, ContatoMemori} from './components/divs';
+import { Borda, BlocoMemori, SeggBlocoMemori, Bloco,PrimeiroBloc, SegundBloc, BlocoDois, PriBloc, SegBloc,TerBloc, InformacoesMemori, Localizacao, Phone, Email,Horario, BlocoTitulo, Bordaa, Bordaaa, ContatoMemori, ContatoBorda,InfoBorda} from './components/divs';
 import FooterMemori from './components/footer';
 import LogoMemori from './components/logomemori';
 import {IconPhonee} from './components/icons';
@@ -138,7 +138,7 @@ function App() {
 
     <InformacoesMemori>
     <BlocoTitulo>
-    <Titulooo>Informações para contato</Titulooo>
+    <Titulooo id="Informacoes">Informações para contato</Titulooo>
     <Bordaa/>
     <IconDownArrow/>
     <Bordaaa/>
@@ -166,9 +166,9 @@ function App() {
     <ContatoMemori>
     <BlocoTitulo>
     <Titulooo>Envie-nos uma mensagem</Titulooo>
-    <Bordaa/>
-    <IconDownArrow/>
-    <Bordaaa/>
+    <InfoBorda/>
+    <IconDownArrows/>
+    <ContatoBorda/>
     
     </BlocoTitulo>
     

@@ -24,8 +24,10 @@ function HeaderOpen (){
     <Logo/>
         <ListaMemoriul>
         <ListaMemorili as="a" href="/">Home</ListaMemorili>
+        
         <ListaMemorili as="a" href="#servico">Serviços</ListaMemorili>
         <ListaMemorili as="a" href="#nosso-processo">Nossos Processos</ListaMemorili>
+        <ListaMemorili as="a" href="#Informacoes">informações</ListaMemorili>
         <ListaMemorili as="a" href="/home/Portifolio">Portifolio</ListaMemorili>
         </ListaMemoriul>
     </Wrapper>

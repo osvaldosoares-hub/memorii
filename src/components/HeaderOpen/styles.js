@@ -23,6 +23,7 @@ export const HeaderMemori = styled.header`
     background-color: var( --color-head);
     border-bottom: 2px solid red;
     height: 200px;
+    width:100%;
     
     
 
@@ -38,21 +39,21 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    ${container};
-
-    @media(max-width: 800px){
+    ${container}
+@media(max-width:800px){
         display: flex;
         justify-content: center;
         
         & > ${Logo}{
-            height: 15px;
+            width:70px;
+            
         }
         & > ${ListaMemoriul}{
             
             position: absolute;
             
             height:30px;
-            top:160px;
+            top:200px;
             
             
         }

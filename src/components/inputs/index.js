@@ -65,10 +65,14 @@ export const EnviarMensagem = styled.input`
     border-radius: 30px;
     background-color: transparent;
     width: 150px;
-    margin: 25px 0;
+    
     font-family: 'Roboto', sans-serif;
-    padding-top: 15px;
+    padding: 15px;
     outline: 0;
     text-align: center;
-
+    &:hover{
+    
+     
+        background-color:var(--color-blue-light);
+    }
 `;

@@ -203,3 +203,11 @@ export const IconDownArrow = styled.img.attrs({src: DownArrow, alt:"DownArrow"})
         
 
 `;
+export const IconDownArrows = styled.img.attrs({src: DownArrow, alt:"DownArrow"})`
+        height:28px;
+        position: absolute;
+        top:23px;
+        left:195px;
+        
+
+`;

@@ -13,6 +13,11 @@ export const Titulo = styled.h2`
         font-size: 20rem;
         margin-left: 45%;
         margin-top: 50px;
+        @media (max-width: 800px){
+        font-size: 18rem;
+        margin-left:40%;
+
+    }
 `;
 
 export const SegTagMemori = styled.h2`
@@ -35,6 +40,11 @@ export const Paragrafo = styled.p`
         margin-right: 20px;
         font-size: 20rem;
         text-align: justify;
+        @media (max-width: 800px){
+        font-size: 18rem;
+
+    }
+        
         
         
 
@@ -73,9 +83,9 @@ export const Paragrafoo = styled.p`
 export const Paragrafooo = styled.p`
         
         margin-left: 10px;
-        
         font-size: 18rem;
         text-align: justify;
+        
         
         
 
